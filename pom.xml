@@ -11,10 +11,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>cn.lianhy</groupId>
-  <artifactId>springboot-restful-web-service</artifactId>
+  <artifactId>springboot-mongo</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>springboot-restful-web-service</name>
+  <name>springboot-mongo</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -33,9 +33,18 @@
       <scope>test</scope>
     </dependency>
     <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-mongodb</artifactId>
+    </dependency>
+    <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.58</version>
     </dependency>
   </dependencies>
 
